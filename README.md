@@ -2,11 +2,10 @@
 1-file Python 3.9 implementation of the game 2048
 
 ## Libraries used
-1. tkinter
-2. random
+- tkinter
+- random
 
 ## How to run
-- Download the file
 - Run python `python 2048.py` in the directory where the file is located
 
 ## How to play
