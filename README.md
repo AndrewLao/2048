@@ -1,4 +1,4 @@
-# 2048Py
+# 2048.py
 1-file Python 3.9 implementation of the game 2048
 
 ## Libraries used
