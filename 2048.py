@@ -165,11 +165,11 @@ class Game(tk.Frame):
         self.game_over()
 
     def move_checks(self):
-        for i in range(4): # horizontal moves exist?
+        for i in range(4):  # horizontal moves exist?
             for j in range(3):
                 if self.matrix[i][j] == self.matrix[i][j + 1]:
                     return True
-        for i in range(3): # vertical moves exist?
+        for i in range(3):  # vertical moves exist?
             for j in range(4):
                 if self.matrix[i][j] == self.matrix[i + 1][j]:
                     return True
@@ -185,4 +185,10 @@ class Game(tk.Frame):
             game_over_frame.place(relx=0.5, rely=0.5, anchor="center")
             tk.Label(game_over_frame, text="You Lose!", bg=EMPTY_COLOR, fg=LABEL_COLORS[8192], font=TITLE_FONT).pack()
 
-Game()
+
+def main():
+    Game()
+
+
+if __name__ == "__main__":
+    main()
