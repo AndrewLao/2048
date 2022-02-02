@@ -1,5 +1,5 @@
 # 2048Py
-1-file Python 3.9 implementation of 2048
+1-file Python 3.9 implementation of the game 2048
 
 ## Libraries used
 1. tkinter
